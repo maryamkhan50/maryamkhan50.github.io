@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+.article{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    min-height: 110vh;
+    background-image:url(../Downloads/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: azure;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: rgb(224, 132, 12);
+    transition: 0.5s ease;
+}
+.active{
+    background-color: chocolate;
+}
+.article{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size: 36px;
+    color: wheat;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+.article p{
+    font-size: 12px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    color:black;
+}
+.article .btn{
+    color: white;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: chocolate;
+}
+.article .btn:hover{
+    background-color: #4399fa;
+    transition: 0.5s ease;
+    
+}
